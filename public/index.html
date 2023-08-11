@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="contenedor">
+
+    <header>
+        <h1 class="centrado">Box model</h1>
+    </header>
+
+    <!-- Menú principal utilizando Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="indexGrupal.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nuestros temas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="audio.html">Audio</a></li>
+                            <li><a class="dropdown-item" href="tema.html">Tema</a></li>
+                            <li><a class="dropdown-item" href="cuestionario.html">Cuestionario</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>¿Que debo saber sobres box model?</h2>
+            <p>
+                El modelo de caja (box model) es un concepto fundamental en el diseño web que describe cómo se
+                estructura y
+                dimensiona un elemento HTML en una página. Cada elemento HTML, como un párrafo, una imagen o un div, se
+                considera una caja rectangular, y el modelo de caja describe cómo se calculan sus dimensiones y cómo
+                interactúan con otros elementos.
+            </p>
+
+            <p>
+                <img src="../img/boxmodel.png" alt="Descripción de box model" width="95%">
+            </p>
+
+
+        </section>
+        <hr>
+    </main>
+
+    <!-- Menú aside utilizando una lista ul -->
+    <aside>
+        <br><br>
+        <ul class="menu-aside">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="tema.html">Tema</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+        <br><br>
+    </aside>
+
+    <footer class="centrado">
+        <p>
+            <br>
+            Mis datos de contacto son <br>
+            Skype:live:juan_ttorres_1 <br>
+            Telefono: 3009621882 <br>
+            Email: jtorresvel@unadvirtual.edu.co <br>
+        </p>
+        <p>Fecha de actualización: Julio-2023</p>
+    </footer>
+</body>
+
+</html>

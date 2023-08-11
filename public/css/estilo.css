@@ -1,0 +1,99 @@
+/*h1{
+    background-color: rgb(17, 197, 95);
+}
+*/
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        'A A A A'
+        'B B B B'
+        'C D D D'
+        'E E E E';
+}
+
+/*.centradito {
+    text-align: center;
+}
+*/
+header {
+    grid-area: A;
+    background-color: #84c359;
+}
+
+nav {
+    grid-area: B;
+    background-color: aqua;
+}
+
+main {
+    grid-area: D;
+    color: rgb(103, 74, 231);
+}
+
+aside {
+    grid-area: C;
+    background-color: turquoise;
+}
+
+footer {
+    grid-area: E;
+    background-color: #f2f2f2;
+   
+}
+
+.centrado {
+    text-align: center;
+}
+
+/*MENU*/
+
+.menuh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.menuh a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 3px;
+}
+
+
+.menu-aside {
+    list-style: none;
+    padding: 4px;
+
+}
+
+
+.menu-aside a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 3px;
+    display: block;
+}
+
+@media (max-width: 500px) {
+
+    .contenedor {
+        display: grid;
+        grid-template-areas:
+            'A A A A'
+            'B B B B'
+            'D D D D'
+            '. C C .'
+            'E E E E';
+    }
+
+    footer {
+        background-color: red;
+    }
+
+}
