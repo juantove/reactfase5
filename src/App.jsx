@@ -28,7 +28,7 @@ function App() {
 
     <h6>Enlace al proyecto</h6>
 
-    <a href="index.html">Ir al proyecto</a>
+    <a href="inicio.html">Ir al proyecto</a>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
